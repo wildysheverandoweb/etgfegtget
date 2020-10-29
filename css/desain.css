@@ -1,5 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+*{margin:0px auto;}
+#container{
+    position:relative;
+}
  
+#header{
+    background:#0cf;
+    padding:10px;
+}
+#content{
+    padding:10px;
+}
+#footer{
+    height:50px;
+    line-height:50px;
+    background:#333;
+    color:#fff;
+} 
+
 body {
 	background: #eee;
 	margin:0;
@@ -30,6 +48,11 @@ header .deskripsi{
 	margin:25px auto;
 }
  
+.autherbawah {
+	width: 500PX;
+	margin: 0PX;
+}
+
 nav.menu ul {
 	overflow:hidden;
 	color:#fff;
